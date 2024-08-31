@@ -1,0 +1,116 @@
+.pilotairship-management-container{
+    height: 90vh;
+    width: 95%;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    margin-top: 30px;
+    color: #000;
+    overflow-y: auto;
+  }
+
+  .pilotairship-management-container .small-text{
+    font-size: 30px;
+  }
+  
+  .pilotairship-management-container .bigTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .pilotairship-management-container .bigTable th, .pilotairship-management-container .bigTable td {
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    border-bottom: 1px solid #ddd; /* Add horizontal border */
+  }
+  
+  .pilotairship-management-container .bigTable th {
+    background-color: #10085c; /* Gray background color for table header */
+  }
+  
+  .pilotairship-management-container .bigTable tr:hover {
+    background-color: #393343; /* Light gray background color on hover */
+  }
+
+  .pilotairship-management-container .bigTable .smallTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .pilotairship-management-container .bigTable .smallTable tr{
+    background-color: #7e7e7e;
+  }
+
+  .pilotairship-management-container .bigTable .smallTable td{
+    border-right: none;
+    border-left: none;
+    padding: 4px;
+  }
+
+  .pilotairship-management-container .bigTable .smallTable .airship-role-cell{
+    padding: 8px;
+  }
+  
+  .pilotairship-management-edit-button{
+    color: rgb(5, 5, 153);
+    font-size: 20px;
+  }
+  
+  .pilotairship-management-delete-button{
+    color: red;
+    font-size: 20px;
+    margin-left: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pilotairship-management-goback-arrow{
+  color: #000;
+  margin-right: 50px;
+  }
+  
+  .pilotairship-management-add-button-container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  color: #000000;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+  }
+  
+  .pilotairship-management-add-button-icon{
+  margin-right: 0px;
+  font-size: 20px;
+  color: #000000;
+  }
+  
+  .pilotairship-user-info-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .username {
+    /* Estilos existentes */
+    margin-left: 30px; /* Ajusta el valor según lo necesites */
+    font-size: 22px;
+    
+  }
+  
+  .forma {
+    /* Estilos existentes */
+    font-size: 5px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  
+  .pilotairship-management-logo{
+    margin-right: 50px;
+  }

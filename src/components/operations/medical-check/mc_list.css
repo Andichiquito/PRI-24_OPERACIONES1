@@ -1,0 +1,225 @@
+/* Container */
+.container-list {
+    margin: 2%;
+}
+
+.mc-container-list {
+    height: 88vh;
+    width: 95%;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: auto;
+    overflow-y: auto;
+}
+
+/* Header Action */
+.mc-header-action-list a, p {
+    display: inline-block;
+}
+
+.mc-header-action-list a {
+    text-decoration: none;
+}
+
+.mc-header-action-list a>span {
+    color: #000;
+    font-weight: bold;
+    margin: 0 6px;
+    font-size: 16px;
+}
+
+.mc-header-action-list p>span {
+    color: #414141;
+    margin: 0 2px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* Card 1 */
+.mc-card-1-list {
+    margin: 20px 0;
+    padding: 14px;
+    border-radius: 8px;
+    background: #ddd;
+}
+
+table {
+    color: #fff;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    background: #10085c;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+th {
+    padding: 10px 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    background: #10085c;
+}
+
+tbody {
+    font-size: 12px;
+}
+
+td {
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    /* background: #10085c8e; */
+    background: rgba(12, 14, 141, 0.6);
+}
+
+tbody>tr {
+    cursor: pointer;
+}
+
+tbody>tr:hover {
+    background: rgba(12, 14, 141, 0.8);
+}
+
+.mc-btn-icon-list {
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 15%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.mc-group-list {
+    display: flex;
+    padding: 0;
+    margin: 10px 0;
+    align-content: center;
+    align-items: center;
+}
+
+.mc-group-list p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.mc-textInput-list {
+    width: 510px;
+    padding: 6px;
+    font-size: 16px;
+    color: #000;
+    border-radius: 6px;
+    border: none;
+    border-bottom: 2px solid #444;
+    outline: none;
+}
+
+.mc-button-list {
+    background: #10085c;
+    border: 1px solid #074597;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0 5px;
+}
+
+/* Footer User */
+.mc-footer-user-list {
+    color: #474747;
+}
+
+.mc-footer-user-list label {
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0 4px;
+}
+
+.mc-footer-user-list a {
+    text-decoration: none;
+}
+
+.mc-edit{
+    color: blue;
+    font-size: 20px;
+    margin-left: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .mc-delete{
+    color: red;
+    font-size: 20px;
+    margin-left: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mc-black{
+    color: #000;
+  }
+
+  .mc-user-info-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mc-username {
+    /* Estilos existentes */
+    margin-left: 30px; /* Ajusta el valor según lo necesites */
+    font-size: 16px;
+    
+  }
+  
+  .mc-forma {
+    /* Estilos existentes */
+    font-size: 4px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: auto;
+  } 
+  
+  .mc-management-logo{
+    margin-right: 50px;
+    font-size: 50%;
+  }
+  
+  .mc-left{
+    margin-left: 10px;
+  }
+
+  tbody > tr.mc-row-por_vencer td {
+    background: rgba(255, 193, 7, 0.6);  /* Amarillo ámbar semitransparente */
+    color: #000;  /* Texto negro para mejor contraste */
+}
+
+tbody > tr.mc-row-por_vencer:hover td {
+    background: rgba(255, 193, 7, 0.8);  /* Un poco más opaco al hacer hover */
+}
+
+/* Estilos para las filas "vencidas" */
+tbody > tr.mc-row-vencido td {
+    background: rgba(220, 53, 69, 0.6);  /* Rojo oscuro semitransparente */
+    color: #fff;  /* Texto blanco para mejor contraste */
+}
+
+tbody > tr.mc-row-vencido:hover td {
+    background: rgba(220, 53, 69, 0.8);  /* Un poco más opaco al hacer hover */
+}
+tbody > tr.mc-row-por_vencer td,
+tbody > tr.mc-row-vencido td {
+    background: transparent;
+}

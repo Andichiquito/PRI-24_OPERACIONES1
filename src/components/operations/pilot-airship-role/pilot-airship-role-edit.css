@@ -1,0 +1,105 @@
+.edit-pilotairship-container {
+    height: 90vh;
+    width: 95%;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    color: #000;
+    margin: auto;
+    margin-top: 30px;
+    overflow-y: auto;
+  }
+
+  .edit-pilotairship-container .small-text{
+    font-size: 20px;
+  }
+  
+  .edit-pilotairship-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .edit-pilotairship-form-container {
+    width: 90%; /* Cambiar el ancho según sea necesario */
+    margin: 40px auto;
+    border: 1px solid #f3e9e9;
+    padding: 20px 20px 5px;
+    background-color: #8e93922a;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  .edit-pilotairship-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-pilotairship-info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+}
+
+.edit-pilotairship-label-input-container {
+    width: 80%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+  
+  .edit-pilotairship-label-input-container label {
+    font-size: 20px; /* Ajustar el tamaño de la fuente del label */
+  }
+  
+  .edit-pilotairship-label-input-container input, select {
+    width: 100%;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  
+  .edit-pilotairship-goback-arrow{
+    color: #000;
+    margin-right: 50px;
+  }
+  
+  .edit-pilotairship-button {
+    color: white;
+    background-color: #171A4A;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    max-width: 200px;
+    margin-top: 20px; /* Ajuste el margen superior según sea necesario */
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .pilotairship-user-info-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .username {
+    /* Estilos existentes */
+    margin-left: 30px; /* Ajusta el valor según lo necesites */
+    font-size: 22px;
+    
+  }
+  
+  .forma {
+    /* Estilos existentes */
+    font-size: 5px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  
+  .edit-pilotairship-logo{
+    margin-right: 50px;
+  }
+  
+  

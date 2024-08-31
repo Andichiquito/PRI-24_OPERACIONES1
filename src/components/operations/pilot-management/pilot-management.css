@@ -1,0 +1,97 @@
+.pilot-management-container{
+  height: 90vh;
+  width: 95%;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+  margin-top: 30px;
+  color: #000;
+  overflow-y: auto;
+}
+
+.pilot-management-container .pilot-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.pilot-management-container .pilot-table th, .pilot-management-container .pilot-table td {
+  text-align: center;
+  padding: 5px;
+  font-size: 11px;
+  border-bottom: 1px solid #ddd; /* Add horizontal border */
+}
+
+.pilot-management-container .pilot-table th {
+  background-color: #10085c; /* Gray background color for table header */
+}
+
+.pilot-management-container .pilot-table tr:hover {
+  background-color: #393343; /* Light gray background color on hover */
+}
+
+.pilot-management-edit-button{
+  color: rgb(5, 5, 153);
+  font-size: 20px;
+}
+
+.pilot-management-delete-button{
+  color: red;
+  font-size: 20px;
+  margin-left: 15px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.pilot-management-goback-arrow{
+color: #000;
+margin-right: 50px;
+}
+
+.pilot-management-add-button-container {
+ display: flex;
+}
+
+.pilot-management-add-button-container button {
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 8px;
+border: 1px solid #000000;
+background-color: #ffffff;
+padding: 10px 20px;
+color: #000000;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+margin-left: 10px;
+}
+
+.pilot-management-add-button-icon{
+margin-right: 0px;
+font-size: 20px;
+color: #000000;
+}
+
+.pilot-user-info-container {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  /* Estilos existentes */
+  margin-left: 30px; /* Ajusta el valor según lo necesites */
+  font-size: 22px;
+  
+}
+
+.forma {
+  /* Estilos existentes */
+  font-size: 5px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.pilot-management-logo{
+  margin-right: 50px;
+}

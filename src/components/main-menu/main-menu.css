@@ -1,0 +1,45 @@
+.main-menu-container {
+    width: 98%;
+    height: 98vh;
+    border-radius: 5px;
+    background-color: white;
+    overflow-y: auto;
+}
+
+.main-menu-options {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+    .main-menu-options .card {
+        width: 400px;
+        height: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 10rem;
+        background-color: #000020;        
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;        
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+        .main-menu-options .card span{
+            margin-left: 1rem;
+        }
+
+        .main-menu-options .card svg{
+            font-size: 50px;
+        }
+
+.main-menu-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

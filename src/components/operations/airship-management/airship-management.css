@@ -1,0 +1,109 @@
+.airship-management-container {
+    height: 88vh;
+    width: 95%;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+    overflow-y: auto;
+}
+
+.airship-management-container table {
+    width: 100%;/*calc(110% - 250px); /* Reducir el ancho de la tabla */
+    margin: 50px auto; /* Centrar la tabla horizontalmente */
+    border-collapse: collapse;
+    margin-top: 30px;
+    
+    color: #ffffff;
+}
+
+.airship-management-container th, .airship-management-container td {
+    text-align: center;
+    font-size: 12px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.airship-management-container th {
+    background-color: #10085c;
+}
+
+.airship-management-container tr:hover {
+    background-color: #393343; /* Cambio de color al pasar el mouse */
+}
+
+.airship-management-container .edit-button {
+    
+    color: rgb(5, 5, 153);
+    font-size: 20px;
+}
+
+.airship-management-container .delete-button {
+    color: red;
+  font-size: 20px;
+  margin-left: 15px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.airship-management-container .goback-arrow {
+    margin-top: 40px;
+    color: #000000;
+    margin-right: 40px;
+    margin-left: 45px; /* Ajuste del margen izquierdo */
+}
+
+.airship-management-container .add-button-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    color: #000000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 90px; /* Ajuste del margen izquierdo */
+}
+
+.airship-management-container .add-button-icon {
+    margin-right: 0;
+    color: #000000;
+}
+
+.airship-management-container {
+    position: relative;
+}
+
+.airship-management-container .username {
+    /* Estilos existentes */
+    margin-left: 80px; /* Ajusta el valor según lo necesites */
+    font-size: 22px;
+    
+}
+
+.airship-management-container .forma {
+    /* Estilos existentes */
+    font-size: 5px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+.airship-management-logo{
+    display: flex;
+    justify-content: flex-end;
+}
+.airship-management-container .user-info-container {
+    display: flex;
+    align-items: center;
+}
+.airship-management-container .airship-management-logo {
+    margin-right: 50px; /* Ajusta la cantidad de espacio desde la derecha */
+}

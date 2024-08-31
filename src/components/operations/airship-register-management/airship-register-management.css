@@ -1,0 +1,196 @@
+
+
+.airship-register-management-container {
+    height: 88vh;
+    width: 95%;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    overflow-y: auto;
+}
+
+/* Estilos para el contenido dentro del contenedor */
+.airship-register-management-container .aeronave-container {
+    width: 90%; /* Cambiar el ancho según sea necesario */
+    margin: 40px auto;
+    border: 1px solid #f3e9e9;
+    padding: 20px 20px 5px;
+    background-color: #8e93922a;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
+}
+.register-airshit-label-input-container {
+    width: calc(50% - 0px); /* Ajustar el ancho para un elemento en una fila */
+    display: flex;
+    flex-direction: column; /* Mostrar elementos uno encima del otro */
+    
+  }
+  .register-airshit-label-input-container input, .register-airshit-label-input-container select {
+    width: calc(95% - 20px); /* Ajustar el ancho del input */
+    font-size: 18px; /* Aumentar el tamaño de la fuente del input */
+    padding: 15px 2px; /* Agregar espacio vertical dentro del input */
+  }
+  
+  .register-airshit-label-input-container label {
+    font-size: 25px; /* Ajustar el tamaño de la fuente del label */
+  }
+  .register-airshit-estado-label-input-container label {
+    font-size: 25px; /* Ajustar el tamaño de la fuente del label */
+  }
+  .register-airshit-estado-label-input-container{
+    width: calc(93% - 20px); 
+    font-size: 18px; /* Aumentar el tamaño de la fuente del input */
+    padding: 15px 2px;
+  }
+  .register-airshit-estado-label-input-container {
+    width: calc(46% - 0px); /* Ajustar el ancho para un elemento en una fila */
+    display: flex;
+    flex-direction: column; /* Mostrar elementos uno encima del otro */
+    
+  }
+  
+
+  .airship-register-management-container .info-section .label-input-container .time-inputs {
+    display: flex;
+    gap: 10px; /* Espacio entre los inputs */
+}
+
+.airship-register-management-container .info-section .label-input-container .time-inputs input[type="number"] {
+    width: 345px; /* Ajustar el ancho del input */
+    height: 40px; /* Ajustar la altura del input */
+    font-size: 20px; /* Aumentar el tamaño de la fuente */
+    padding: 10px; /* Agregar espacio interno */
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+
+
+.airship-register-management-container .info-section {
+    display: flex;
+    flex-wrap: wrap; /* Permitir envolver elementos en múltiples líneas */
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.airship-register-management-container .info-section .label-input-container {
+    width: calc(50% - 20px); /* Ajustar el ancho para un elemento en una fila */
+    margin-bottom: 20px;
+}
+
+/* Estilos para pantalla reducida */
+@media screen and (max-width: 768px) {
+    .airship-register-management-container .info-section .label-input-container {
+        width: 100%; /* Cambia el ancho para que cada elemento ocupe toda la fila */
+        margin-bottom: 20px; /* Añade un margen inferior para separar los elementos */
+    }
+}
+
+
+.airship-register-management-container .info-section .label-input-container label {
+    font-size: 25px; /* Ajustar el tamaño de la fuente del label */
+}
+
+.airship-register-management-container .info-section .label-input-container input[type="text"] {
+    width: calc(100% - 10px); /* Ajustar el ancho del input */
+    font-size: 18px; /* Aumentar el tamaño de la fuente del input */
+    padding: 10px 2px; /* Agregar espacio vertical dentro del input */
+    max-width: 697px;
+}
+
+
+
+.airship-register-management-container .goback-arrow {
+    margin-top: 40px;
+    color: #000000;
+    margin-right: 40px;
+    margin-left: 45px; /* Ajuste del margen izquierdo */
+}
+
+
+
+.airship-register-management-container .aeronave-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente los elementos */
+    overflow-x: auto;
+}
+
+.airship-register-management-container .aeronave-container .register-button {
+    color: white;
+    background-color: #171A4A;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    max-width: 200px;
+    margin-top: 20px; /* Ajuste el margen superior según sea necesario */
+    font-size: 15px;
+}
+
+.airship-register-management-logo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+/* Modificación del CSS */
+
+
+
+.airship-register-management-container .info-section input[type="text"] {
+    width: 100%;
+}
+
+.airship-register-management-container .small-text {
+    font-size: 30px; /* Ajusta el tamaño de la letra según sea necesario */
+    font-weight: normal; /* Elimina la negrita */
+    margin-top: -50px; /* Ajusta el margen superior según sea necesario */
+    vertical-align: middle;
+}
+
+
+
+.airship-register-management-container input[type="text"],
+
+.airship-register-management-container .table-style {
+    border-radius: 10px;
+    padding: 2px;
+    width: 10%; /* Cambiar el ancho según sea necesario */
+}
+
+
+
+
+
+.airship-register-management-container .username {
+    /* Estilos existentes */
+    margin-left: 80px; /* Ajusta el valor según lo necesites */
+    font-size: 22px;
+    
+}
+
+.airship-register-management-container .forma {
+    /* Estilos existentes */
+    font-size: 5px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+
+
+.airship-register-management-container .airship-user-info-container {
+    display: flex;
+    align-items: center;
+}
+.airship-register-management-container .airship-register-management-logo {
+    margin-right: 50px; /* Ajusta la cantidad de espacio desde la derecha */
+}

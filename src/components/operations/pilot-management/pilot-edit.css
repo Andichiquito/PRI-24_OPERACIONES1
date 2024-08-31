@@ -1,0 +1,98 @@
+.edit-pilot-container {
+    height: 90vh;
+    width: 95%;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    color: #000;
+    margin: auto;
+    margin-top: 30px;
+    overflow-y: auto;
+  }
+  
+  .edit-pilot-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .edit-pilot-form-container {
+    width: 90%; /* Cambiar el ancho según sea necesario */
+    margin: 40px auto;
+    border: 1px solid #f3e9e9;
+    padding: 20px 20px 5px;
+    background-color: #8e93922a;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  .edit-pilot-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente los elementos */
+  }
+  
+  .edit-pilot-info-section {
+    display: flex;
+    flex-wrap: wrap; /* Permitir envolver elementos en filas */
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .edit-pilot-label-input-container {
+    width: calc(50% - 0px); /* Ajustar el ancho para un elemento en una fila */
+    display: flex;
+    flex-direction: column; /* Mostrar elementos uno encima del otro */
+    
+  }
+  
+  .edit-pilot-label-input-container label {
+    font-size: 20px; /* Ajustar el tamaño de la fuente del label */
+  }
+  
+  .edit-pilot-label-input-container input, select {
+    width: calc(90% - 20px); /* Ajustar el ancho del input */
+    font-size: 18px; /* Aumentar el tamaño de la fuente del input */
+    padding: 15px 2px; /* Agregar espacio vertical dentro del input */
+  }
+  
+  .edit-pilot-goback-arrow{
+    color: #000;
+    margin-right: 50px;
+  }
+  
+  .edit-pilot-button {
+    color: white;
+    background-color: #171A4A;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    max-width: 200px;
+    margin-top: 20px; /* Ajuste el margen superior según sea necesario */
+    font-size: 15px;
+  }
+  
+  .pilot-user-info-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .username {
+    /* Estilos existentes */
+    margin-left: 30px; /* Ajusta el valor según lo necesites */
+    font-size: 22px;
+    
+  }
+  
+  .forma {
+    /* Estilos existentes */
+    font-size: 5px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  
+  .edit-pilot-logo{
+    margin-right: 50px;
+  }
+  
+  
